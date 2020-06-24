@@ -1,0 +1,86 @@
+body{
+font-family: 'Lato', sans-serif;	
+margin:0 auto;
+width:960px;
+
+}
+h1,h2,h3{
+color:Brown;
+}
+ul{
+list-style-image:url("Images/dog.jpg");	
+}
+a:link, a:visited{
+text-decoration:blue;
+color:brown;
+font-weight:bold;
+}
+a:hover{
+color:lightgrey;
+}
+nav ul{
+list-style-type:none;
+padding:0;
+}
+nav li{
+display:inline;	
+float:left;
+}
+nav a:link, a:visited{
+background-color:Brown;
+color:Black;
+display:block;
+width:320px;
+text-align:center;
+padding:10px 0;
+
+}
+a:hover{
+background-color:white;
+}
+aside{
+width:280px;
+float:right;
+background-color:grey;	
+text-align:center;
+font-weight:bold;
+padding:20px;
+margin-left:20px;
+}
+.photo-left{
+float:left;	
+margin-right:20px;
+}
+.photo-right{
+float:right;
+margin-left:20px;
+}
+header{
+background-image:url("Images/Pic5.jpg");
+height:220px;
+float:bottom;
+}
+footer{
+margin:40px 0;
+}
+footer nav a:link footer nav:visited{
+color:grey;
+text-decoration:none;
+display:block;
+width:160px;
+text-align:center;
+background-color:Black;
+}
+footer nav a:hover{
+color:black;
+
+}
+
+video{
+	margin-bottom:20px;
+	margin-left:160px;
+	-webkit-filter:grayscale(100%);
+	-moz-filter:grayscale(100%);
+	filter:grayscale(100%);
+	
+}

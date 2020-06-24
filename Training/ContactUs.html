@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Survey</title>
+		<link href="https://fonts.googleapis.com/css2?family=Lato&family=Piedra&family=Raleway&display=swap" rel="stylesheet" type ="text/css"> 
+		<link href="styles.css" rel="stylesheet" type ="text/css"/>
+	</head>
+
+	<body>
+			<header>
+			</header>
+			<nav>
+			<ul>
+			<li><a href ="WebProject.html">Home Page</a></li>
+			<li><a href="First_Page.html">About Breeds</a></li>
+			<li><a href="ContactUS.html">Contract Us</a></li>
+			</ul>
+			</nav>
+			   <h1>Feedback Survey</h1>
+			   <form action="ContactUS.html" method="post">
+			   <fieldset>
+			   <legend>Personal Information </legend>
+			    Your name<br/>
+			   <input type="text" id="username" name="name" required/><br/>
+			   Email Address<br/>
+			   <input type="email" id="email" name="email" required placeholder="enter the valid address"/> <br/>
+			   </fieldset>
+			   <fieldset>
+			   <legend>Pet Information</legend><br/> 
+			   Tell us about ur best memory with any petIf any..? <br/>
+			   <textarea name="Data" cols="40" rows="6"></textarea> <br/>
+			   Do you love puppies?<br/>
+			   <input type="radio" name="puppy" value="Yes" /> yes<br/>
+			   <input type="radio" name="puppy" value="No" />No<br/>
+			   <br/>
+			   <br/>
+			   Do you have any dog?<br/>
+			   <input type="checkbox" name="pet" value="Labordor" /> Labordor<br/>
+			   <input type="checkbox" name="pet" value="other breed" /> other breeds<br/>
+			   <br/>
+			   Which is your pet color?<br/>
+			   <select name="color"><br/>
+			   <option value="Select color"> Please select the color of ur pet </option>
+			   <option value="white"> white </option>
+			   <option value="black"> Black </option>
+			   <option value="brown"> brown </option>
+			   <option value="blackwhite"> blackwhite </option>
+			   </select><br/>
+			   <br/>
+			   <br/>
+			   <!--<input type = "submit" alert='("Thank you for the feedback")' value="Submit"> </input><br/> -->
+			   <!--<button onclick="feedback();">Submit</button> -->
+			   <input type = "submit" value="submit" onclick="feedback()">
+			   </fieldset>
+			   </form>
+			   
+			   <script> 
+		 function feedback(){
+					var user = document.ElementById('username').value;
+					var email = document.ElementById('email').value;
+			       
+				   alert("Thanks for the feedback");
+				   
+			   }
+		</script>
+			   
+			   
+			   <footer>
+	<nav>
+	<ul>
+	<li><a href ="WebProject.html">Home Page</a></li>
+	<li><a href="First_Page.html">About Breeds</a></li>
+	<li><a href="ContactUS.html">Contract Us</a></li>
+	</ul>
+	</nav>
+	</footer>
+		</body>
+</html>
